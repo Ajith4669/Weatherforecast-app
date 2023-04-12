@@ -1,0 +1,29 @@
+.weatherBg{
+  background: url("https://media.istockphoto.com/id/184874677/photo/xxl-wind-vane-silhouette.jpg?b=1&s=170667a&w=0&k=20&c=V16X6-NRiZsQPytVFZ-foad1WRmUE1qRCICZ8C8SbZM=");
+  height: 50vh;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+.heading{
+  color:white;
+  font-weight: 700;
+}
+.weatherResultBox{
+  margin: auto;
+  width: 500px;
+  height: 300px;
+}
+.weatherIcon{
+  margin-top: 2rem;
+  width: 100px;
+  height: 100px;
+}
+.weatherCity{
+  font-size: 35px;
+}
+.weatherTemp{
+  font-size:55px;
+  font-weight: 700;
+}
