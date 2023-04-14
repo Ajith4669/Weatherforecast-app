@@ -40,8 +40,7 @@ function Weather() {
         <div className="d-grid gap-3 col-4 mt-4">
           <input
             type="text"
-            placeholder="Enter City"
-            align="center"
+            placeholder="Enter Location"
             className="form-control"
             value={inputCity}
             onChange={handleChangeInput}
@@ -64,11 +63,10 @@ function Weather() {
               className="weatherIcon"
               src="https://i.pinimg.com/originals/77/0b/80/770b805d5c99c7931366c2e84e88f251.png"
             />
-            <h5 className="weatherCity">City - {data?.name}</h5>
-            <h6 className="weatherTemp">
-              {" "}
+            <h5 className="weatherCity">Location - {data?.name}</h5>
+            <h5 className="weatherTemp">
               Temp -{(data?.main?.temp - 273.15).toFixed(2)}°C
-            </h6>
+            </h5>
           </div>
         </div>
       )}
